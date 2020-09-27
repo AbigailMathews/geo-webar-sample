@@ -16,7 +16,23 @@
       arjs="sourceType: webcam; debugUIEnabled: false;"
     >
     <!-- Added three POIs in Lee, MA -->
+
       <a-text
+        value="October Mountain Welcome Station - Brackets"
+        look-at="[gps-camera]"
+        scale="120 120 120"
+        gps-entity-place="latitude: <42.3362005>; longitude: -73.2335259>;"
+      ></a-text>
+
+      <a-text
+        value="October Mountain Welcome Station"
+        look-at="[gps-camera]"
+        scale="120 120 120"
+        gps-entity-place="latitude: 42.3362005; longitude: -73.2335259;"
+      ></a-text>
+
+
+      <!-- <a-text
         value="Railroad Station."
         look-at="[gps-camera]"
         scale="120 120 120"
@@ -33,7 +49,7 @@
         look-at="[gps-camera]"
         scale="120 120 120"
         gps-entity-place="latitude: <42.305870>; longitude: <-73.249488>;"
-      ></a-text>
+      ></a-text> -->
       <a-camera gps-camera rotation-reader> </a-camera>
     </a-scene>
   </body>
